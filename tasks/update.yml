@@ -1,0 +1,2 @@
+- name: fix 4000hour bug
+  shell: sudo su -c "[ $(uname -m) == "armv7l" ] && cat /dev/null > /var/log/wtmp"
